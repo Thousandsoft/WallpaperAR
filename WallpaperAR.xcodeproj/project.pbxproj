@@ -13,6 +13,8 @@
 		84D055ED25BFE98900FE492D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D055EB25BFE98900FE492D /* Main.storyboard */; };
 		84D055EF25BFE98C00FE492D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D055EE25BFE98C00FE492D /* Assets.xcassets */; };
 		84D055F225BFE98C00FE492D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D055F025BFE98C00FE492D /* LaunchScreen.storyboard */; };
+		84D055FB25BFEC9700FE492D /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D055FA25BFEC9700FE492D /* Plane.swift */; };
+		84D0560925BFF3DC00FE492D /* wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84D0560825BFF3DB00FE492D /* wallpaper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		84D055EE25BFE98C00FE492D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D055F125BFE98C00FE492D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D055F325BFE98C00FE492D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D055FA25BFEC9700FE492D /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		84D0560825BFF3DB00FE492D /* wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wallpaper.jpg; path = ../../../../Downloads/wallpaper.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				84D055EE25BFE98C00FE492D /* Assets.xcassets */,
 				84D055F025BFE98C00FE492D /* LaunchScreen.storyboard */,
 				84D055F325BFE98C00FE492D /* Info.plist */,
+				84D055FA25BFEC9700FE492D /* Plane.swift */,
+				84D0560825BFF3DB00FE492D /* wallpaper.jpg */,
 			);
 			path = WallpaperAR;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				84D055E825BFE98900FE492D /* art.scnassets in Resources */,
 				84D055F225BFE98C00FE492D /* LaunchScreen.storyboard in Resources */,
+				84D0560925BFF3DC00FE492D /* wallpaper.jpg in Resources */,
 				84D055EF25BFE98C00FE492D /* Assets.xcassets in Resources */,
 				84D055ED25BFE98900FE492D /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D055EA25BFE98900FE492D /* ViewController.swift in Sources */,
+				84D055FB25BFEC9700FE492D /* Plane.swift in Sources */,
 				84D055E625BFE98900FE492D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 582N78528Y;
 				INFOPLIST_FILE = WallpaperAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 582N78528Y;
 				INFOPLIST_FILE = WallpaperAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
